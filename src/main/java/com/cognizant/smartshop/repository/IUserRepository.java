@@ -23,13 +23,13 @@ public interface IUserRepository extends JpaRepository<User, Long>{
 	
 	@Query(value="SELECT u.user_id, u.first_name, u.last_name, u.age, "
 			+" u.gender, u.contact_number, u.password, "
-			+" u.status, u.sec_question, u.sec_answer FROM user u WHERE u.status='P' and u.user_id in (SELECT ur.ur_us_id FROM user_role ur WHERE ur.ur_ro_id=2);"
+			+" u.status, u.sec_question, u.sec_answer FROM user u WHERE u.status='p' and u.user_id in (SELECT ur.ur_us_id FROM user_role ur WHERE ur.ur_ro_id=2);"
 			, nativeQuery=true)
 	public List<User> getAllPending();
 	
 	@Query(value="SELECT u.user_id, u.first_name, u.last_name, u.age, "
 			+" u.gender, u.contact_number, u.password, "
-			+" u.status, u.sec_question, u.sec_answer FROM user u WHERE u.status='A' and u.user_id in (SELECT ur.ur_us_id FROM user_role ur WHERE ur.ur_ro_id=2);"
+			+" u.status, u.sec_question, u.sec_answer FROM user u WHERE u.status='a' and u.user_id in (SELECT ur.ur_us_id FROM user_role ur WHERE ur.ur_ro_id=2);"
 			, nativeQuery=true)
 	public List<User> getAllApproved();
 	

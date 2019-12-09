@@ -50,10 +50,10 @@ public class UserService {
 	public void changeStatus(String userId) {
 		User user = userRepository.getByUserId(userId);
 		
-		if(user.getStatus() == 'P'){
-			user.setStatus('A');
+		if(user.getStatus() == 'p'){
+			user.setStatus('a');
 		} else {
-			user.setStatus('P');
+			user.setStatus('p');
 		}	
 		userRepository.save(user);
 	}

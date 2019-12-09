@@ -1,5 +1,6 @@
 package com.cognizant.smartshop.service;
 
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,7 @@ public class PurchaseService {
 	}
 
 	public void savePurchase(Purchase purchase) {
+		purchase.setPurchaseDate(new Date());
 		purchaseRepository.save(purchase);
 	}
 

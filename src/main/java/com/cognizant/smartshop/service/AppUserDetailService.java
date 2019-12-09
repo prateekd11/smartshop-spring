@@ -45,7 +45,7 @@ public class AppUserDetailService implements UserDetailsService {
 		return appUser;
 	}
 	
-	public boolean signUp(User user, boolean isManager){
+	public boolean signUp(User user, boolean isUser){
 		User userObj = userRepository.getByUserId(user.getUserId());
 		if(userObj != null) {
 			return false;
@@ -54,16 +54,20 @@ public class AppUserDetailService implements UserDetailsService {
 			System.out.println(user);
 			String pass = user.getPassword();
 			user.setPassword(passwordEncoder().encode(pass));
+			if(isUser)
+				user.setStatus('a');
+			else
+				user.setStatus('p');
 			userRepository.save(user);
 			
 			  User newUser = userRepository.getByUserId(user.getUserId());  
-			  if(isManager)
+			  if(isUser)
 			  {
-				  userRepository.addUserRole(newUser.getUserId(),2);
+				  userRepository.addUserRole(newUser.getUserId(),3);
 				  return true;
 			  }
 			  else{
-				  userRepository.addUserRole(newUser.getUserId(), 3);
+				  userRepository.addUserRole(newUser.getUserId(), 2);
 				  return true;
 			  }
 			  

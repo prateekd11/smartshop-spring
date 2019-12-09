@@ -68,10 +68,10 @@ public class UserController {
 		return userService.isApproved(userId);
 	}
 	 
-	@PostMapping("/{isManager}")
-	public boolean addUser(@RequestBody User user, @PathVariable("isManager")boolean isManager){
+	@PostMapping("/{isUser}")
+	public boolean addUser(@RequestBody User user, @PathVariable("isUser")boolean isUser){
 		//userService.addUser(user);
-		return appUserDetailService.signUp(user, isManager);
+		return appUserDetailService.signUp(user, isUser);
 		
 	}
 	
