@@ -77,7 +77,7 @@ public class ProductService {
 	}
 	
 	public List<Product> getProductsSortedByPriceWithProductType(Optional<String> productType) {
-		return productRepository.getProductsSortedByPriceWithProductType(productType);
+		return productRepository.getProductsSortedByPriceWithProductType(productType.get());
 	}
 	
 

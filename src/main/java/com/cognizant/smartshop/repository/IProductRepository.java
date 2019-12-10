@@ -67,7 +67,7 @@ public interface IProductRepository extends JpaRepository<Product, Long>{
 	@Query(value="SELECT p.product_code, p.product_name, p.product_type, brand, "
 			+ "p.rate_per_quantity, p.stock_count, p.add_date, p.aisle, p.shelf, "
 			+ "p.date_of_manf, p.date_of_exp, p.product_img FROM product p WHERE p.product_type=? ORDER BY p.rate_per_quantity", nativeQuery=true)
-	public List<Product> getProductsSortedByPriceWithProductType(Optional<String> productType);
+	public List<Product> getProductsSortedByPriceWithProductType(String productType);
 
 	
 	@Query(value="(SELECT product_code FROM purchase GROUP BY product_code ORDER BY COUNT(purchase_id) DESC) ", nativeQuery=true)
