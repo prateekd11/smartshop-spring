@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/eureka/accessors-smart-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/android-json-0.0.20131108.vaadin1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/antlr-runtime-3.4.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/apiguardian-api-1.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/archaius-core-0.7.6.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/asm-5.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/aspectjweaver-1.9.4.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/assertj-core-3.13.2.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/bcpkix-jdk15on-1.60.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/bcprov-jdk15on-1.60.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/byte-buddy-1.10.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/byte-buddy-agent-1.10.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/classmate-1.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/commons-configuration-1.8.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/commons-jxpath-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/commons-math-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/compactmap-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/dexx-collections-0.2.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/dom4j-2.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/eureka-client-1.9.3.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/eureka-core-1.9.3.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/FastInfoset-1.2.16.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/freemarker-2.3.28.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/guava-16.0.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/guice-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/h2-1.4.197.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/hamcrest-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/HdrHistogram-2.1.9.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/hibernate-commons-annotations-5.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/hibernate-core-5.4.6.Final.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/hibernate-validator-6.0.17.Final.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/HikariCP-3.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/httpclient-4.5.9.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/httpcore-4.4.11.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/hystrix-core-1.5.12.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/istack-commons-runtime-3.0.8.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jackson-annotations-2.10.0.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jackson-core-2.10.0.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jackson-databind-2.10.0.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jackson-dataformat-xml-2.9.9.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jackson-datatype-jdk8-2.10.0.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jackson-datatype-jsr310-2.10.0.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jackson-module-jaxb-annotations-2.9.9.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jackson-module-parameter-names-2.10.0.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jakarta.activation-api-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jakarta.annotation-api-1.3.5.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jakarta.persistence-api-2.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jakarta.transaction-api-1.3.3.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jakarta.validation-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jakarta.xml.bind-api-2.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jandex-2.0.5.Final.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/javassist-3.24.0-GA.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/javax.annotation-api-1.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/javax.transaction-api-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jaxb-runtime-2.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jboss-logging-3.4.1.Final.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jersey-apache-client4-1.19.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jersey-client-1.19.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jersey-core-1.19.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jersey-servlet-1.19.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jettison-1.3.7.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jjwt-0.9.0.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/joda-time-2.10.2.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jose4j-0.6.5.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jsonassert-1.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/json-path-2.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/json-smart-2.3.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/jul-to-slf4j-1.7.28.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/junit-jupiter-5.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/junit-jupiter-api-5.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/junit-jupiter-engine-5.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/junit-jupiter-params-5.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/junit-platform-commons-1.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/junit-platform-engine-1.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/LatencyUtils-2.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/log4j-api-2.12.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/log4j-to-slf4j-2.12.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/logback-classic-1.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/logback-core-1.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/micrometer-core-1.1.5.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/mockito-core-3.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/mockito-junit-jupiter-3.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/mysql-connector-java-8.0.18.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/netflix-commons-util-0.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/netflix-eventbus-0.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/netflix-infix-0.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/netflix-statistics-0.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/objenesis-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/opentest4j-1.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/ribbon-2.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/ribbon-core-2.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/ribbon-eureka-2.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/ribbon-httpclient-2.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/ribbon-loadbalancer-2.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/ribbon-transport-2.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/rxjava-1.3.8.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/rxnetty-0.4.9.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/rxnetty-contexts-0.4.9.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/rxnetty-servo-0.4.9.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/servo-core-0.12.21.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/slf4j-api-1.7.28.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/snakeyaml-1.25.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-aop-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-aspects-5.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-beans-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-boot-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-boot-actuator-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-boot-actuator-autoconfigure-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-boot-autoconfigure-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-boot-devtools-2.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-boot-starter-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-boot-starter-actuator-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-boot-starter-aop-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-boot-starter-data-jpa-2.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-boot-starter-freemarker-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-boot-starter-jdbc-2.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-boot-starter-json-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-boot-starter-logging-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-boot-starter-test-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-boot-starter-tomcat-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-boot-starter-validation-2.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-boot-starter-web-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-boot-test-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-boot-test-autoconfigure-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-cloud-commons-2.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-cloud-context-2.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-cloud-netflix-archaius-2.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-cloud-netflix-core-2.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-cloud-netflix-eureka-client-2.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-cloud-netflix-eureka-server-2.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-cloud-netflix-ribbon-2.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-cloud-starter-2.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-cloud-starter-netflix-archaius-2.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-cloud-starter-netflix-eureka-client-2.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-cloud-starter-netflix-eureka-server-2.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-cloud-starter-netflix-ribbon-2.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-context-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-context-support-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-core-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-data-commons-2.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-data-jpa-2.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-expression-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-jcl-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-jdbc-5.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-orm-5.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-security-config-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-security-core-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-security-crypto-5.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-security-rsa-1.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-security-web-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-test-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-tx-5.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-web-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/spring-webmvc-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/stax2-api-3.1.4.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/stax-api-1.0-2.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/stax-ex-1.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/stringtemplate-3.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/tomcat-embed-core-9.0.21.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/tomcat-embed-el-9.0.21.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/tomcat-embed-websocket-9.0.21.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/txw2-2.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/validation-api-2.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/woodstox-core-5.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/woodstox-core-asl-4.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/xmlpull-1.1.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/xmlunit-core-2.6.3.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/xpp3_min-1.1.4c.jar"/>
+	<classpathentry kind="lib" path="D:/eureka/xstream-1.4.10.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
