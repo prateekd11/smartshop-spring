@@ -64,11 +64,8 @@ public class UserService {
 
 	public String[] getSecurityQuestionAndAnswer(String userId) {
 		String[] securityData = null;
-		try{
 			securityData = userRepository.getSecurityQuestionAndAnswer(userId).split(",");
-		}catch(Exception e){
-			e.getMessage();
-		}
+		
 		return securityData;
 	}
 

@@ -29,7 +29,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-		//auth.userDetailsService(inMemoryUserDetailsManager());
 		auth.authenticationProvider(authProvider());
 	}
 
@@ -51,7 +50,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity httpSecurity) throws Exception {
 		httpSecurity.cors();
 		httpSecurity.csrf().disable().httpBasic().and().authorizeRequests()
-				.antMatchers("/authenticate", "/movie-list").permitAll().anyRequest()
+				.antMatchers("/authenticate", "/products").permitAll().anyRequest()
 				.authenticated().and()
 				.addFilter(new JwtAuthorizationFilter(authenticationManager()));
 	}
